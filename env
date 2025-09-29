@@ -1,0 +1,8 @@
+# HPA Scanner Configuration
+
+# Generate PDF report (true/false)
+#GENERATE_PDF=true
+
+# Slack Configuration
+#SLACK_BOT_TOKEN=xoxxxxxxx
+#SLACK_CHANNEL=#channel
