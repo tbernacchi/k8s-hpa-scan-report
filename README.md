@@ -1,6 +1,6 @@
 # Kubernetes HPA Scanner
 
-> Script to scan a Kubernetes cluster and identify resources that can use HPA (Horizontal Pod Autoscaler) but don't have HPA enabled.
+> Scan of a K8S cluster to identify resources/limits/ HPA not enabled. Generates PDF reports.
 
 ## Features
 
@@ -27,12 +27,8 @@
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
-
-# Or install directly
-pip install kubernetes
+pip3 install -r requirements.txt
 ```
-
 ## Usage
 
 ### Basic Usage
@@ -57,11 +53,8 @@ export GENERATE_PDF=true
 ### Configuration via File
 
 ```bash
-# Copy example file
-cp env.example .env
-
 # Edit configuration
-nano .env
+vim .env
 
 # Load variables and run
 source .env
