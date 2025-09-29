@@ -1,6 +1,6 @@
 # Kubernetes HPA Scanner
 
-> Scan of a K8S cluster to identify resources/limits/ HPA not enabled. Generates PDF reports.
+> Scan of a K8S cluster to identify resources/limits/ HPA not enabled. Generates PDF report.
 
 ## Features
 
