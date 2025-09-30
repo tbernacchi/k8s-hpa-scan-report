@@ -1,6 +1,6 @@
 # Kubernetes HPA Scanner
 
-> Scan of a K8S cluster to identify resources/limits/ HPA not enabled. Generates PDF report.
+> Scan of a K8S cluster to identify resources/limits/ HPA not enabled. Generates PDF reports.
 
 ## Features
 
@@ -26,7 +26,8 @@
 ## Installation
 
 ```bash
-# Install dependencies
+python3 -m venv k8s-hpa-scan-report
+source k8s-hpa-scan-report/bin/activate
 pip3 install -r requirements.txt
 ```
 ## Usage
